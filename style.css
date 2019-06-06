@@ -1,6 +1,26 @@
-p.header {
+body {
+        background-color: rgb(158, 165, 54);
+}
+h1, p.header {
+    margin: 0 200px;
+    margin-bottom: 20px;
     color:white;
     background-color: darkgray;
     text-align: center;
+    font-size: x-large;
+
+}
+
+h2 {
+    color:white;
+    background-color: darkgray;
+    margin-right: 800px;
+    margin-left: 200px;
+    font-size: xx-large;
+}
+
+h3 {
+    color: darkgray;
+    background-color: white;
     font-size: x-large;
 }
