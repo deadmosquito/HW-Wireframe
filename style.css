@@ -1,9 +1,11 @@
 body {
         background-color: rgb(158, 165, 54);
+        
 }
 h1, p.header {
     margin: 0 200px;
     margin-bottom: 20px;
+    padding: 30px;
     color:white;
     background-color: darkgray;
     text-align: center;
@@ -12,15 +14,79 @@ h1, p.header {
 }
 
 h2 {
+    position: relative;
+    margin: 0 200px;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    text-align: center;
     color:white;
     background-color: darkgray;
-    margin-right: 800px;
-    margin-left: 200px;
+    float: left;
     font-size: xx-large;
+    padding-bottom: 300px;
 }
 
 h3 {
+    padding: 10px;
+    position: relative;
+    top: 70px; right: 675px;
+    width: 400px;
+    height: 400px;
+
+    overflow: auto;
+    text-align: center;
     color: darkgray;
     background-color: white;
     font-size: x-large;
+}
+
+.h123 {
+    clear: both ;
+    overflow: auto ;
+    color: azure;
+    padding-bottom: 30px;
+    background-color: brown;
+    width: 350px;
+    position: relative;
+    bottom: 330px;
+    left: 300px;
+    
+    text-align: center;
+    font-size: x-large; 
+
+
+}
+
+.p {
+    color: azure;
+    background-color: brown;
+    width: 350px;
+    position: relative;
+    bottom: 280px;
+    left: 300px;
+    padding-bottom: 30px;
+    
+    text-align: center;
+    font-size: x-large; 
+    padding-top: 70px;
+
+}
+
+.aside {
+    position: relative;
+    
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    color:white;
+    background-color: darkgray;
+    float: right;
+    font-size: xx-large;
+    padding-bottom: 300px;
+   
+
 }
