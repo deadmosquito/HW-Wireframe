@@ -1,15 +1,18 @@
 body {
-        background-color: rgb(158, 165, 54);
+        background-color: #777;
+        
+    
         
 }
 h1, p.header {
     margin: 0 200px;
     margin-bottom: 20px;
     padding: 30px;
-    color:white;
-    background-color: darkgray;
+    color:grey;
+    background-color: #ebebeb;
     text-align: center;
-    font-size: x-large;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif
 
 }
 
@@ -21,72 +24,88 @@ h2 {
     width: 500px;
     height: 200px;
     text-align: center;
-    color:white;
-    background-color: darkgray;
+    color:grey;
+    background-color: #ebebeb;
     float: left;
-    font-size: xx-large;
-    padding-bottom: 300px;
+    font-size: 18px;
+    padding-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
-h3 {
+.article {
     padding: 10px;
-    position: relative;
-    top: 70px; right: 675px;
+    clear: both;
     width: 400px;
-    height: 400px;
+    height: 200px;
+    margin-left: 40px;
+    margin-top: 10px;
 
     overflow: auto;
     text-align: center;
-    color: darkgray;
-    background-color: white;
-    font-size: x-large;
+    color: white;
+    background-color:#777;
+    font-size: 18px;
 }
 
 .h123 {
     clear: both ;
     overflow: auto ;
-    color: azure;
-    padding-bottom: 30px;
-    background-color: brown;
+    color: grey;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: #ebebeb;
     width: 350px;
-    position: relative;
-    bottom: 330px;
-    left: 300px;
+    margin: 10px;
+    margin-left: 20px;
+    
     
     text-align: center;
-    font-size: x-large; 
+    font-size: 18px; 
 
 
 }
 
 .p {
-    color: azure;
-    background-color: brown;
+    color: grey;
+    background-color: #ebebeb;
     width: 350px;
-    position: relative;
-    bottom: 280px;
-    left: 300px;
-    padding-bottom: 30px;
+    margin: 10px;
+    margin-left: 20px;
+    padding-bottom: 20px;
     
     text-align: center;
-    font-size: x-large; 
-    padding-top: 70px;
+    font-size: 18px; 
+    padding-top: 20px;
 
 }
 
 .aside {
     position: relative;
-    
+    right: 200px; 
+    float: right;
     margin-bottom: 20px;
     padding: 20px;
     width: 500px;
     height: 200px;
     text-align: center;
-    color:white;
-    background-color: darkgray;
-    float: right;
-    font-size: xx-large;
-    padding-bottom: 300px;
-   
+    color:grey;
+    background-color: #ebebeb;
+    font-size: 18px;
+    padding-bottom: 100px;
+}
+
+footer {
+    margin: 0 200px;
+    margin-bottom: 20px;
+    padding: 30px;
+    color: grey;
+    background-color: #ebebeb;
+    text-align: center;
+    font-size: 18px;
+    font-family: sans-serif;
+    position: relative;
+
+    clear: both ;
+    overflow: auto ;
 
 }
